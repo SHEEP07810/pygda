@@ -5,6 +5,7 @@ from .udagcn_base import UDAGCNBase
 from .reverse_layer import GradReverse
 from .prop_gcn_conv import PropGCNConv
 from .a2gnn_base import A2GNNBase
+from .saga_base import SAGABase
 from .grade_base import GRADEBase
 from .asn_base import ASNBase
 from .gnn_base import GNNBase
@@ -34,6 +35,7 @@ __all__ = [
     "GradReverse",
     "PropGCNConv",
     "A2GNNBase",
+    "SAGABase",
     "GRADEBase",
     "ASNBase",
     "GNNBase",

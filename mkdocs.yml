@@ -33,6 +33,7 @@ nav:
       - nn/PropGCNConv.md
       - nn/ReweightGNN.md
       - nn/SAGDABase.md
+      - nn/SAGABase.md
       - nn/SOGABase.md
       - nn/UDAGCNBase.md             
     - pygda.models:
@@ -52,6 +53,7 @@ nav:
       - models/DMGNN.md
       - models/CWGCN.md
       - models/SAGDA.md
+      - models/SAGA.md
       - models/DGDA.md
       - models/A2GNN.md
       - models/PairAlign.md
@@ -71,6 +73,7 @@ nav:
       - datasets/Elliptic.md
       - datasets/Facebook.md
       - datasets/MAG.md
+      - datasets/SAGA.md
       - datasets/Squirrel.md
       - datasets/TUGraph.md
       - datasets/Twitch.md
@@ -85,6 +88,7 @@ nav:
       - utils/Utility.md
   - Benchmarks:
     - benchmark/Overview.md
+    - benchmark/SAGA.md
   - Cheatsheets: 
     - cheatsheet/Dataset Cheatsheet.md
     - cheatsheet/Model Cheatsheet.md

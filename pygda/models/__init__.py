@@ -1,6 +1,7 @@
 from .base import BaseGDA
 from .udagcn import UDAGCN
 from .a2gnn import A2GNN
+from .saga import SAGA
 from .grade import GRADE
 from .asn import ASN
 from .specreg import SpecReg
@@ -28,6 +29,7 @@ __all__ = [
     "BaseGDA",
     "UDAGCN",
     "A2GNN",
+    "SAGA",
     "GRADE",
     "ASN",
     "SpecReg",

@@ -2,6 +2,7 @@ from .airport import AirportDataset
 from .arxiv import ArxivDataset
 from .blog import BlogDataset
 from .citation import CitationDataset
+from .saga import SAGADataset
 from .elliptic import EllipticDataset
 from .facebook import FacebookDataset
 from .mag import MAGDataset
@@ -17,6 +18,7 @@ __all__ = [
     "ArxivDataset",
     "BlogDataset",
     "CitationDataset",
+    "SAGADataset",
     "EllipticDataset",
     "FacebookDataset",
     "MAGDataset",
