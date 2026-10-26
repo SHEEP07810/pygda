@@ -26,10 +26,9 @@ from .graphata_base import GraphATABase
 from .dgsda_base import DGSDABase
 
 
-from .adalign_base import ADAlignBase
+from .imgda_base import ImGDAEncoder
 
 __all__ = [
-    "ADAlignBase",
     "CachedGCNConv",
     "PPMIConv",
     "Attention",
@@ -56,5 +55,6 @@ __all__ = [
     "NodeCentricConv",
     "NodeCentricMLP",
     "GraphATABase",
-    "DGSDABase"
+    "DGSDABase",
+    "ImGDAEncoder",
 ]

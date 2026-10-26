@@ -12,6 +12,8 @@ from .tugraph import GraphTUDataset
 from .webkb import WebKBDataset
 
 
+from .imgda import load_imgda_pair, prepare_imgda_source
+
 __all__ = [
     "AirportDataset",
     "ArxivDataset",
@@ -24,5 +26,7 @@ __all__ = [
     "TwitchDataset",
     "TwitterDataset",
     "GraphTUDataset",
-    "WebKBDataset"
+    "WebKBDataset",
+    "load_imgda_pair",
+    "prepare_imgda_source",
 ]
