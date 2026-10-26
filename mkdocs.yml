@@ -10,6 +10,7 @@ nav:
   - Package Reference:
     - pygda.nn:
       - nn/A2GNNBase.md
+      - nn/ADAlignBase.md
       - nn/ACDNEBase.md
       - nn/AdaGCNBase.md
       - nn/ASNBase.md
@@ -54,6 +55,7 @@ nav:
       - models/SAGDA.md
       - models/DGDA.md
       - models/A2GNN.md
+      - models/ADAlign.md
       - models/PairAlign.md
       - models/GTrans.md
       - models/SOGA.md
@@ -85,6 +87,7 @@ nav:
       - utils/Utility.md
   - Benchmarks:
     - benchmark/Overview.md
+    - benchmark/ADAlign.md
   - Cheatsheets: 
     - cheatsheet/Dataset Cheatsheet.md
     - cheatsheet/Model Cheatsheet.md

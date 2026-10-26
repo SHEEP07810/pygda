@@ -24,7 +24,10 @@ from .sepa import SEPA
 from .dgsda import DGSDA
 from .tdss import TDSS
 
+from .adalign import ADAlign
+
 __all__ = [
+    "ADAlign",
     "BaseGDA",
     "UDAGCN",
     "A2GNN",
