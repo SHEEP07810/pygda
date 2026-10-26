@@ -10,6 +10,7 @@ nav:
   - Package Reference:
     - pygda.nn:
       - nn/A2GNNBase.md
+      - nn/ADAlignBase.md
       - nn/ACDNEBase.md
       - nn/AdaGCNBase.md
       - nn/ASNBase.md
@@ -34,8 +35,7 @@ nav:
       - nn/ReweightGNN.md
       - nn/SAGDABase.md
       - nn/SOGABase.md
-      - nn/UDAGCNBase.md
-      - nn/ImGDAEncoder.md             
+      - nn/UDAGCNBase.md             
     - pygda.models:
       - models/Overview.md
       - models/BaseGDA.md
@@ -55,6 +55,7 @@ nav:
       - models/SAGDA.md
       - models/DGDA.md
       - models/A2GNN.md
+      - models/ADAlign.md
       - models/PairAlign.md
       - models/GTrans.md
       - models/SOGA.md
@@ -63,7 +64,6 @@ nav:
       - models/TDSS.md
       - models/GraphATA.md
       - models/DGSDA.md
-      - models/ImGDA.md
     - pygda.datasets: 
       - datasets/Overview.md
       - datasets/Airport.md
@@ -77,7 +77,6 @@ nav:
       - datasets/TUGraph.md
       - datasets/Twitch.md
       - datasets/Twitter.md
-      - datasets/ImGDA.md
     - pygda.metrics:
       - metrics/Metrics.md
     - pygda.utils:
@@ -88,6 +87,7 @@ nav:
       - utils/Utility.md
   - Benchmarks:
     - benchmark/Overview.md
+    - benchmark/ADAlign.md
   - Cheatsheets: 
     - cheatsheet/Dataset Cheatsheet.md
     - cheatsheet/Model Cheatsheet.md
