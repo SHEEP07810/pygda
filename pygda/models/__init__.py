@@ -24,10 +24,9 @@ from .sepa import SEPA
 from .dgsda import DGSDA
 from .tdss import TDSS
 
-from .adalign import ADAlign
+from .imgda import ImGDA
 
 __all__ = [
-    "ADAlign",
     "BaseGDA",
     "UDAGCN",
     "A2GNN",
@@ -52,5 +51,6 @@ __all__ = [
     "GraphATA",
     "SEPA",
     "DGSDA",
-    "TDSS"
+    "TDSS",
+    "ImGDA",
 ]
