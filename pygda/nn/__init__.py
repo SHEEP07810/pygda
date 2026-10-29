@@ -24,7 +24,7 @@ from .soga_base import SOGABase
 from .node_centric_conv import NodeCentricConv, NodeCentricMLP
 from .graphata_base import GraphATABase
 from .dgsda_base import DGSDABase
-
+from .pala_base import PALABase
 
 __all__ = [
     "CachedGCNConv",
@@ -53,5 +53,6 @@ __all__ = [
     "NodeCentricConv",
     "NodeCentricMLP",
     "GraphATABase",
-    "DGSDABase"
+    "DGSDABase",
+    "PALABase",
 ]

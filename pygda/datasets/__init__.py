@@ -10,7 +10,7 @@ from .twitch import TwitchDataset
 from .twitter import TwitterDataset
 from .tugraph import GraphTUDataset
 from .webkb import WebKBDataset
-
+from .pala import load_pala_graph, load_pala_cache, prepare_pala_source, prepare_pala_target
 
 __all__ = [
     "AirportDataset",
@@ -24,5 +24,9 @@ __all__ = [
     "TwitchDataset",
     "TwitterDataset",
     "GraphTUDataset",
-    "WebKBDataset"
+    "WebKBDataset",
+    "load_pala_graph",
+    "load_pala_cache",
+    "prepare_pala_source",
+    "prepare_pala_target",
 ]
