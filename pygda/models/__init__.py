@@ -51,3 +51,6 @@ __all__ = [
     "DGSDA",
     "TDSS"
 ]
+
+from .uaga import UAGA
+__all__.append("UAGA")

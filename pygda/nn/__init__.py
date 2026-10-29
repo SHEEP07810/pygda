@@ -55,3 +55,6 @@ __all__ = [
     "GraphATABase",
     "DGSDABase"
 ]
+
+from .uaga_base import UAGABase
+__all__.append("UAGABase")
